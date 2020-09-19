@@ -56,7 +56,7 @@ public class LoadList {
 
                 // record times for each insertion
                 timeList.add(timeEnd - timeStart);
-                System.out.println("one sort finished");
+
             }
             insertEnd = System.nanoTime();
             fileReader.close();
