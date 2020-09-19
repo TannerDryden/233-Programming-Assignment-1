@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 
 
-public class loadList {
+public class LoadList {
 
     public static void main(String[] arg) {
         LinkedList<Integer> list = new LinkedList<>();
