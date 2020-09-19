@@ -20,7 +20,7 @@ public class ListFunctions {
         int size = list.size();
         long min = list.get(0);
         for (int i = 1; i < size; i++) {
-            if (min < list.get(i)) {
+            if (min > list.get(i)) {
                 min = list.get(i);
             }
         }
